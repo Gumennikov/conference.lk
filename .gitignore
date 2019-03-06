@@ -1,0 +1,14 @@
+# All files in project are to ingore
+# !...: ignore exceptions
+.idea/*
+css/*
+css/Roboto.zip
+img/*
+js/*
+php/*
+thesis_conference_db/*
+.HTACCESS
+*.php
+*.js
+*.html
+!index.html
