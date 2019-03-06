@@ -1,0 +1,180 @@
+.header {
+    background: url("../../img/header.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 560px;
+}
+
+.header__wrap {
+    position: relative;
+    height: 100vh;
+}
+
+.header__top {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.header__logo {
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.header__list {
+    list-style: none;
+    padding: 0;
+}
+
+.header__list li {
+    display: inline-flex;
+    padding-left: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.header__list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__list li a:hover{
+    text-decoration: underline;
+    color: #6fc51d;
+}
+
+.header__middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.header__confDate {
+    padding-left: 15px;
+    padding-right: 40px;
+    white-space: nowrap;
+}
+
+.header__confTitle {
+    text-align: left;
+    padding: 0 40px;
+    font-size: 26px;
+    color: white;
+    font-weight: 400;
+    max-width: 760px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #8bd446;
+    font-weight: 400;
+}
+
+.header h3 {
+    text-align: left;
+    font-size: 26px;
+    color: white;
+    font-weight: 400;
+}
+
+/* -------------
+       Media
+----------------*/
+
+@media (max-width: 970px) {
+
+    .header__logo {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header__top {
+        padding-bottom: 15px;
+    }
+
+    .header__list {
+        display: flex;
+    }
+
+    .header__list li {
+        padding-left: 15px;
+    }
+
+    .header__middle {
+        padding-bottom: 20px;
+        height: 200px;
+    }
+
+    .header__confDate {
+        padding-right: 15px;
+    }
+
+    .header__confTitle {
+        padding: 0 15px;
+    }
+
+    .header h2 {
+        font-size: 40px;
+    }
+
+    .header h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 445px) {
+
+    .header__top {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .header__list ul {
+        text-align: center;
+    }
+
+    .header__logo img{
+        width: 50%;
+        margin: 0 25%;
+    }
+
+    .header__middle {
+        display: block;
+        align-items: center;
+        padding: 0;
+    }
+
+    .header__confTitle {
+        padding: 0 15px;
+    }
+
+    .header__verticalLine {
+        display: none;
+    }
+
+    .header__confDate {
+        white-space: normal;
+    }
+
+    .header h3 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .header__middle {
+        padding: 10px 0;
+    }
+}
+

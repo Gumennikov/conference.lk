@@ -1,0 +1,220 @@
+.registration-form-header {
+    background: url("../../img/footer.jpg");
+    background-size: auto;
+    height: 30px;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.registration-form-header h3{
+    color: white;
+    font-weight: 400;
+    margin: auto 20px;
+    line-height: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: center;
+}
+
+.form-fields h4 {
+    text-align: center;
+}
+
+.form p{
+    margin: 20px auto;
+}
+
+.form label{
+    width: 150px;
+    flex-basis: 70%;
+    float: left;
+    color: #003;
+    padding-top: 6px;
+    margin-left: 260px;
+}
+
+.form input {
+    width: 300px;
+    flex-basis: 30%;
+}
+
+.form select{
+    width: 320px;
+}
+
+.form textarea{
+    width: 300px;
+    max-width: 300px;
+    line-height: 150%;
+}
+
+.checkbox-confirm label{
+    margin-left: 0;
+}
+
+.checkbox-confirm p{
+    text-align: center;
+}
+
+.confirm {
+    float: none !important;
+}
+
+.form input[type="radio"]{
+    width: auto;
+}
+
+.form input[type="checkbox"] {
+    width: auto;
+}
+
+.form input, .form textarea, .form select{
+    padding: 8px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, rgb(242, 242, 242), white);
+}
+
+.form input:hover, .form textarea:hover, .form select:hover,
+.form input:focus, .form textarea:focus, .form select:focus{
+    border-color: #C9C9C9;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.form p.submit {
+    margin: 0;
+    text-align: center;
+}
+
+.section label {
+    width: 310px;
+}
+
+#sendForm {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #8bd446;
+    display: inline-block;
+    padding: 23px 45px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#sendForm:hover {
+    background-color: #6fc51d;
+}
+
+.redText{
+    color: red !important;
+    text-align: center;
+}
+
+.green-dot {
+    color: #6fc51d;
+    text-align: center;
+}
+
+.formError{
+    border: 1px solid red !important;
+}
+
+#messenger{
+    width: 450px;
+    border: #E5E5E5 1px solid;
+    padding: 5px;
+    background: #FFEDED;
+    color: #7F5354;
+    border-radius: 5px;
+    display: none;
+    position: center;
+}
+
+.answerError{
+    width: 450px;
+    border: #E5E5E5 1px solid;
+    padding: 5px;
+    background: #FFEDED;
+    color: #7F5354;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.answerOk{
+    width: 450px;
+    border: #E5E5E5 solid 1px;
+    padding: 5px;
+    background: #F0FAF1;
+    color: #58715E;
+    border-radius: 5px;
+}
+
+#validEmail{
+    margin-top: 7px;
+    margin-left: 7px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+/* -------------
+       Media
+----------------*/
+
+@media (max-width: 768px) {
+
+    .submit {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 747px) {
+
+    .form label {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .form label {
+        margin-left: 20px;
+    }
+
+    .form select {
+        width: 220px;
+    }
+
+    .form input {
+        width: 200px;
+    }
+
+    .form textarea {
+        width: 200px;
+    }
+}
+
+@media (max-width: 445px) {
+
+    .submit {
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .submit a {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 15px 32px;
+    }
+
+}

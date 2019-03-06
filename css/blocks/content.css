@@ -1,0 +1,22 @@
+.content {
+    max-width: 970px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.content__title p {
+    font-size: 22px;
+    color: #8bd446;
+    padding: 0;
+    text-align: center;
+}
+
+.content__title {
+    margin: 30px 0;
+    line-height: 1;
+}
+
+.content__content {
+    text-align: left;
+}
+

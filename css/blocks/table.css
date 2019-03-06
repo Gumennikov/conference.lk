@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    /*width: 100%;*/
+    /*max-width: 100%;*/
+    margin: auto;
+    text-align: center;
+}
+
+thead {
+    font-size: 16px;
+    font-weight: bold;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+    padding: 8px;
+}
+
+td {
+    color: #669;
+    border-top: 1px solid #e8edff;
+    padding: 10px 10px;
+}
+
+tr:nth-child(2n) {background: #e8edff;}
+
+/* -------------
+       Media
+----------------*/
+
+@media screen and (max-width: 600px) {
+    table {
+        overflow-y: scroll;
+    }
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #333;
+    background-color: white;
+    height: 100%;
+}
+
+.container {
+    max-width: 100%;
+    min-width: 320px;
+    /*height: 100%;*/
+}
+
+.wrap {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+@font-face syntax{
+    font-family: 'Roboto', sans-serif;
+    src: url(Roboto-Regular.ttf);
+    font-size: 16px;
+}
